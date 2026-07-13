@@ -1,0 +1,40 @@
+# ==================== 私密信息（绝不提交）====================
+.env
+backend/.env
+*.pem
+*.key
+*-key.json
+credentials.*
+secrets.*
+
+# ==================== 构建产物 ====================
+backend/target/
+frontend/node_modules/
+frontend/dist/
+*.class
+*.jar
+*.war
+
+# ==================== 二进制/可执行文件 ====================
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ==================== IDE & 编辑器 ====================
+.idea/
+*.iml
+.vscode/
+.obsidian/
+
+# ==================== 系统文件 ====================
+Thumbs.db
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# ==================== 杂项 ====================
+.github/modernize/
